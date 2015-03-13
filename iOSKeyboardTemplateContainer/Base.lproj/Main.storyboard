@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kanye" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTW-QS-Aad">
+                                <rect key="frame" x="263" y="14" width="74.5" height="52"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-UltraLight" family="Avenir Next Condensed" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keyboard" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66j-4B-60W">
+                                <rect key="frame" x="227" y="65" width="146" height="52"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please allow full access for the keyboard in:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJY-SD-IUZ">
+                                <rect key="frame" x="173" y="137" width="255.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Found a quote or image we haven't?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cy3-vD-yFm">
+                                <rect key="frame" x="184" y="265" width="232" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings -&gt; General -&gt; Keyboards -&gt; Add Keyboard -&gt; Kanye Keyboard -&gt; Allow Full Access" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="pLU-Co-KV0">
+                                <rect key="frame" x="6" y="170" width="588" height="46.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" This just allows you to copy and paste images!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTX-63-YWr">
+                                <rect key="frame" x="188" y="227" width="222.5" height="18"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kiz-Tr-ZB5">
+                                <rect key="frame" x="26" y="298" width="548" height="46.5"/>
+                                <string key="text">Submit the quote or URL of the image, and (optionaly) your Twitter handle and we'll give you a shout out in the next update if we use it!</string>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xty-Zs-3f4">
+                                <rect key="frame" x="230" y="352" width="139" height="33"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="15"/>
+                                <state key="normal" title="Send Quote or Image">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKx-3B-8fD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="66j-4B-60W" firstAttribute="top" secondItem="ZTW-QS-Aad" secondAttribute="bottom" constant="-1" id="28T-u2-R5e"/>
+                            <constraint firstAttribute="centerX" secondItem="gJY-SD-IUZ" secondAttribute="centerX" id="8D6-CP-f4e"/>
+                            <constraint firstItem="Xty-Zs-3f4" firstAttribute="top" secondItem="Kiz-Tr-ZB5" secondAttribute="bottom" constant="7.5" id="A2P-YC-1t5"/>
+                            <constraint firstItem="ZTW-QS-Aad" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-6" id="CHa-vv-Ezs"/>
+                            <constraint firstAttribute="centerX" secondItem="ZTW-QS-Aad" secondAttribute="centerX" id="Cf9-Io-bEc"/>
+                            <constraint firstItem="pLU-Co-KV0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-10" id="Ch7-E9-IY2"/>
+                            <constraint firstItem="zTX-63-YWr" firstAttribute="top" secondItem="pLU-Co-KV0" secondAttribute="bottom" constant="10" id="Kfy-78-HTB"/>
+                            <constraint firstItem="gJY-SD-IUZ" firstAttribute="top" secondItem="66j-4B-60W" secondAttribute="bottom" constant="20" id="Kru-Oe-TL4"/>
+                            <constraint firstAttribute="centerX" secondItem="66j-4B-60W" secondAttribute="centerX" id="R8M-Bp-gUC"/>
+                            <constraint firstItem="Kiz-Tr-ZB5" firstAttribute="top" secondItem="cy3-vD-yFm" secondAttribute="bottom" constant="10" id="T9e-Ma-IlK"/>
+                            <constraint firstAttribute="centerX" secondItem="zTX-63-YWr" secondAttribute="centerX" id="VEx-i2-aI3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kiz-Tr-ZB5" secondAttribute="trailing" constant="10" id="W0C-6H-z3c"/>
+                            <constraint firstItem="cy3-vD-yFm" firstAttribute="top" secondItem="zTX-63-YWr" secondAttribute="bottom" constant="20" id="d2i-Nj-LD3"/>
+                            <constraint firstAttribute="centerX" secondItem="Xty-Zs-3f4" secondAttribute="centerX" id="nta-7c-Kae"/>
+                            <constraint firstAttribute="centerX" secondItem="cy3-vD-yFm" secondAttribute="centerX" id="rLT-nP-gDV"/>
+                            <constraint firstItem="Kiz-Tr-ZB5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="wmP-B3-5LI"/>
+                            <constraint firstItem="pLU-Co-KV0" firstAttribute="top" secondItem="gJY-SD-IUZ" secondAttribute="bottom" constant="10" id="yU7-k4-w31"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pLU-Co-KV0" secondAttribute="trailing" constant="-10" id="zwN-Gl-1rs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453" y="538"/>
+        </scene>
+    </scenes>
+</document>
