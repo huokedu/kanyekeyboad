@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FBFF32B5-2757-4B31-9886-24F360CF89AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kanye Keyboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CD44F5EBF234EBE2D4D289D9CA63CFB7C2AB81E</key>
+		<string>https://github.com/SamStone92/kanyekeyboad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kanye Keyboard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CD44F5EBF234EBE2D4D289D9CA63CFB7C2AB81E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SamStone92/kanyekeyboad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CD44F5EBF234EBE2D4D289D9CA63CFB7C2AB81E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CD44F5EBF234EBE2D4D289D9CA63CFB7C2AB81E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kanyekeyboad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

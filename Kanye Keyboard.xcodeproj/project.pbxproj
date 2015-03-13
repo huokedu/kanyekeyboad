@@ -27,6 +27,7 @@
 		650286C31AB25C31007585B0 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 650286B01AB25C31007585B0 /* 17.gif */; };
 		650286C41AB25C31007585B0 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = 650286B11AB25C31007585B0 /* 18.gif */; };
 		656BD2101AB277EF00D09600 /* KeyArt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656BD20F1AB277EF00D09600 /* KeyArt.xcassets */; };
+		656BD2121AB2FAF700D09600 /* KeyArt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656BD20F1AB277EF00D09600 /* KeyArt.xcassets */; };
 		65C8A77B1AB150EE008F62BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8A77A1AB150EE008F62BD /* Images.xcassets */; };
 		65E9ACEB1AB0A32000E72164 /* KanyeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9ACEA1AB0A32000E72164 /* KanyeTableViewCell.m */; };
 		65E9AD0A1AB0D17900E72164 /* Appstore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65E9AD091AB0D17900E72164 /* Appstore.jpg */; };
@@ -390,6 +391,7 @@
 				650286B31AB25C31007585B0 /* 19.gif in Resources */,
 				650286B41AB25C31007585B0 /* 2.gif in Resources */,
 				650286C31AB25C31007585B0 /* 17.gif in Resources */,
+				656BD2121AB2FAF700D09600 /* KeyArt.xcassets in Resources */,
 				650286B21AB25C31007585B0 /* 1.gif in Resources */,
 				650286BB1AB25C31007585B0 /* 9.gif in Resources */,
 				650286C21AB25C31007585B0 /* 16.gif in Resources */,
@@ -600,8 +602,6 @@
 		69737D591A290CD8007D104E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -617,8 +617,6 @@
 		69737D5A1A290CD8007D104E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSKeyboardTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
