@@ -96,7 +96,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGZ-oA-oIl">
                                 <rect key="frame" x="549" y="558" width="35" height="42"/>
-                                <state key="normal" image="globe">
+                                <state key="normal" image="backspace">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -221,6 +221,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backspace" width="35" height="35"/>
         <image name="globe" width="35" height="35"/>
     </resources>
 </document>
